@@ -1,0 +1,20 @@
+{
+  "img":{
+    "cb":[1,2,3,4,5,6],
+    "fs":[1,2,3,4,5,6],
+    "mb":[1,2,3,4],
+    "yx":[1,2,3,4,5,6,7,8,9,10],
+    "qs":[1,2,3,4,5,6,7],
+    "sb":[1,2,3,4],
+    "xz":[1,2,3,4,5]
+  },
+  "url":{
+    "cb":["https://item.jd.com/4935827.html","https://item.jd.com/3758262.html","https://item.jd.com/293271.html","https://item.jd.com/293269.html","https://item.jd.com/293270.html","https://item.jd.com/296973.html#crumb-wrap"],
+    "fs":["https://item.jd.com/2378068.html#crumb-wrap","https://item.jd.com/223257.html","https://item.jd.com/219427.html","https://item.jd.com/685099.html","https://item.jd.com/219433.html","https://item.jd.com/219429.html","https://item.jd.com/685098.html"],
+    "mb":["https://item.jd.com/4524847.html#crumb-wrap","https://item.jd.com/4524831.html","https://item.jd.com/4524829.html#crumb-wrap","https://item.jd.com/5288438.html"],
+    "yx":["https://item.jd.com/1058800.html","https://item.jd.com/1059987.html","https://item.jd.com/1058794.html","https://item.jd.com/187297.html","http://item.jd.com/15340511786.html","https://item.jd.com/4612324.html","https://item.jd.com/1674775.html","https://item.jd.com/1058795.html","https://item.jd.com/1066937.html","#"],
+    "qs":["https://item.jd.com/1934319.html","https://item.jd.com/187257.html","https://item.jd.com/982642.html","https://item.jd.com/982641.html","https://item.jd.com/990061.html","http://item.jd.com/10617528535.html","https://item.jd.com/1006889.html"],
+    "sb":["https://item.jd.com/981817.html","https://item.jd.com/980198.html","https://item.jd.com/980200.html","https://item.jd.com/980199.html"],
+    "xz":["https://item.jd.com/1690965.html","#","http://item.jd.com/11680254115.html","https://item.jd.com/1635463.html","https://item.jd.com/1690981.html"]
+  }
+}

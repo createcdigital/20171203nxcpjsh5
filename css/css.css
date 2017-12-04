@@ -1,0 +1,132 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: white;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+     /*Center slide text vertically*/
+    /*display: -webkit-box;*/
+    /*display: -ms-flexbox;*/
+    /*display: -webkit-flex;*/
+    /*display: flex;*/
+    /*-webkit-box-pack: center;*/
+    /*-ms-flex-pack: center;*/
+    /*-webkit-justify-content: center;*/
+    /*justify-content: center;*/
+    /*-webkit-box-align: center;*/
+    /*-ms-flex-align: center;*/
+    /*-webkit-align-items: center;*/
+    /*align-items: center;*/
+}
+.left{
+    background-image: url(../img/icon/left.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    position: absolute;
+    z-index: 99;
+    top: 34%;
+    left: 7%;
+    width: 9%;
+    height: 6%;
+}
+.right{
+    background-image: url(../img/icon/right.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    position: absolute;
+    z-index: 99;
+    top: 34%;
+    left: 84%;
+    width: 9%;
+    height: 7%;
+}
+.page1{
+    width: 100%;
+    height: 29.8%;
+    float: left;
+}
+.banner{
+    width: 100%;
+    height: 29%;
+    position: fixed;
+    background-image: url(../img/page1/page1-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 10;
+}
+.border-up{
+    border-top: 2px solid #97a5b6;
+}
+.arrow-down{
+    width: 4%;
+    height: 11%;
+    position: fixed;
+    background-image: url(../img/icon/xxh.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    z-index: 10;
+    top: 86%;
+    left: 47%;
+}
+.goods-bg{
+    background-color: #043475;
+}
+#buy{
+    width: 22%;
+    height: auto;
+    position: absolute;
+    left: 61%;
+    top: 90%;
+    z-index: 120;
+}
+#back{
+    width: 22%;
+    height: auto;
+    position: absolute;
+    left: 13%;
+    top: 90%;
+    z-index: 120;
+}
+#showGoods img{
+    width: 100%;
+    height: auto;
+}
+.arrow1{
+    position: absolute;
+    width: 6%;
+    height: auto;
+    top: 88%;
+    left: 45%;
+    z-index: 1000;
+    -webkit-animation: myfirst 0.8s infinite;	/* Safari 和 Chrome */
+}
+@keyframes myfirst
+{
+    50% {opacity: 0;}
+}
+.arrow2{
+    position: absolute;
+    width: 6%;
+    height: auto;
+    top: 86%;
+    left: 45%;
+    z-index: 1000;
+    -webkit-animation: myfirst2 0.8s infinite;	/* Safari 和 Chrome */
+}
+@keyframes myfirst2
+{
+    100% {opacity: 0;}
+}
