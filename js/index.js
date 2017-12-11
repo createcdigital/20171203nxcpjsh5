@@ -64,7 +64,7 @@ var timestamp;
 var nonceStr;
 var signature;
 $.ajax({
-    url:'http://niveamen.watchinga.net/rm/web/jsticket',
+    url:'http://nivea.fphis.com/api/jsconfigure',
     type:'POST',
     async: false,
     data:{url:url},
@@ -95,8 +95,8 @@ wx.config({
 wx.ready(function () {
     wx.onMenuShareTimeline({
         title: 'NIVEA', // 分享标题
-        link: "http://nivea.watchinga.net/crm/nscpjs/index.html", // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
-        imgUrl: 'http://nivea.watchinga.net/crm/xndrc/img/logo.png', // 分享图标
+        link: "http://nivea.fphis.com/crm/nscpjs-n/index.html", // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+        imgUrl: 'http://nivea.fphis.com/crm/nscpjs-n/img/logo.png', // 分享图标
         success: function () {
             _hmt.push(['_trackEvent', '分享', '朋友圈', 'literature']);
         }
@@ -104,8 +104,8 @@ wx.ready(function () {
     wx.onMenuShareAppMessage({
         title: 'NIVEA', // 分享标题
         desc: 'NIVEA女士产品介绍', // 分享描述
-        link: "http://nivea.watchinga.net/crm/nscpjs/index.html", // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
-        imgUrl: 'http://nivea.watchinga.net/crm/xndrc/img/logo.png', // 分享图标
+        link: "http://nivea.fphis.com/crm/nscpjs-n/index.html", // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+        imgUrl: 'http://nivea.fphis.com/crm/nscpjs-n/img/logo.png', // 分享图标
         type: '', // 分享类型,music、video或link，不填默认为link
         dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
         success: function () {
